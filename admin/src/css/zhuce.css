@@ -1,0 +1,53 @@
+.right-content {
+  margin-left: 320px;
+  margin-top: 100px;
+  width: 700px;
+}
+.right-content .form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #d9edf7;
+}
+.right-content .form label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+.right-content .form input {
+  display: inline-block;
+  width: 150px;
+}
+.right-content .form span {
+  display: inline-block;
+  font-size: 14px;
+}
+.right-content .form .showhide {
+  display: none;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.right-content .form div {
+  margin: 15px auto;
+}
+.right-content .form #zhuce {
+  display: block;
+  width: 60px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #07a6f6;
+  border: none;
+}
+.right-content .form #xiugai {
+  display: none;
+  width: 60px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #07a6f6;
+  border: none;
+}

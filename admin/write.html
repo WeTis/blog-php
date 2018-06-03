@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>文章编辑</title>
+	<link rel="stylesheet" type="text/css" href="./index/css/index.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/write.css">
+</head>
+<body>
+   <div class="head">
+   		<div class="logo">
+   			<img src="./index/image/logo.png">
+   		</div>
+   		<div class="time">
+   		   <span>2018年5月2日</span>
+   		</div>
+   </div>
+   <div class="left-nav">
+       <ul class="main-nav">
+          <li>
+             <a href="#">首页</a>
+          </li>
+          <li>
+             <a href="./guanliyuan.html">管理员</a>
+             <ul class="child-nav">
+                <li>
+                   <a href="#">管理员列表</a>
+                </li>
+                <li>
+                   <a href="./zhuce.html">管理员注册</a>
+                </li>
+             </ul>
+          </li>
+          <li>
+             <a href="#">文章</a>
+             <ul class="child-nav">
+                <li>
+                   <a href="wenzhang.html">文章列表</a>
+                </li>
+                <li>
+                   <a href="#">新增文章</a>
+                </li>
+             </ul>
+          </li>
+          <li>
+             <a href="#">用户</a>
+             <ul class="child-nav">
+                <li>
+                   <a href="#">用户列表</a>
+                </li>
+             </ul>
+          </li>
+          <li>
+             <a href="#">数据库</a>
+          </li>
+       </ul>
+   </div>
+   <div class="right-text">
+   	   <div class="title">
+   	   	  <label>文章标题</label>
+   	   	  <input name = 'title' type="text"></input>
+   	   </div>
+   	   <div class="content">
+   	   	  <label>主要内容</label>
+          <textarea rows="2" cols="20">
+		  </textarea>
+   	   </div>
+   	   <div class="author">
+   	   	   <label>作者</label>
+   	   	   <input type="text" name="author"></input>
+   	   </div>
+   	   <div class="time">
+   	   	  <label>发布时间</label>
+   	   	  <input type="text" name="time"></input>
+   	   </div>
+   	   <div>文章主要内容</div>
+   	   <div class='text' style="width: 900px;">
+	   	  <!-- 加载编辑器的容器 -->
+		    <script id="container" name="content" type="text/plain">这里写你的初始化内容
+		    </script>
+		    <!-- 配置文件 -->
+		    <script type="text/javascript" src="./common/utf8-php/ueditor.config.js"></script>
+		    <!-- 编辑器源码文件 -->
+		    <script type="text/javascript" src="./common/utf8-php/ueditor.all.js"></script>
+		    <!-- 实例化编辑器 -->
+		    <script type="text/javascript">
+		        var ue = UE.getEditor('container');
+		        // var uv = UE.getEditor('container').getContent();
+		    </script>
+	   </div>
+	   <div>
+	   	 <input id='fabu' type="submit" value="发布"></input>
+	   </div>
+   </div>
+    <script type="text/javascript" src="./common/js/jquery-3.1.1.js"></script>
+   <script type="text/javascript" src="./src/js/Submitarticle.js"></script>
+</body>
+</html>

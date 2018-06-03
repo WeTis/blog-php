@@ -1,0 +1,31 @@
+.sign-box {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 50px 20px;
+  background-color: #ccc;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+.sign-box div {
+  margin: 10px 0;
+}
+.sign-box input {
+  margin-left: 10px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+.sign-box label {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+.sign-box .sign input {
+  margin: 10px auto;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #ccc;
+}
